@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# challenge artifacts (jangan ke-commit binary soal / libc / flag)
+*.o
+core
+core.*
+flag.txt
+libc.so.6
+ld-*.so
+*.bin
+chall
