@@ -2,6 +2,13 @@
 
 > Teknik doang gak cukup; manajemen waktu & urutan ngerjain sering nentuin ranking.
 
+## ⚠️ Aturan AI di FINAL (dikonfirmasi 27 Nov 2026)
+- ✅ **Boleh:** Google **AI Overview** (ringkasan AI di hasil Google Search) — buat info umum/konsep/sintaks tool.
+- ❌ **Dilarang:** minta AI **nyari bug / kode yang rentan**, atau kasih AI **full source code** buat dianalisis (Ctrl-A Ctrl-V).
+- **Konsekuensi:** kemampuan **baca source/binary & spot bug sendiri** itu WAJIB. Handbook ini (bagian *triage* + *checklist kalau stuck* tiap kategori) = pengganti "nanya AI" versi offline.
+- Boleh bawa: catatan sendiri (handbook ini), tools, template, search engine. Yang dinilai: lu paham, bukan AI.
+- Latihan paling penting: drill baca kode rentan sendiri (lihat `fmtstr-lab` & latihan tiap kategori).
+
 ## Sebelum lomba (H-1)
 - [ ] VM Linux siap + snapshot bersih (lihat [tools-setup.md](tools-setup.md)).
 - [ ] Semua tool ke-test jalan (pwntools, Ghidra, Burp, CyberChef offline).
