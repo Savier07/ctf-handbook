@@ -8,7 +8,8 @@ Cheatsheet pribadi buat dipakai **offline pas lomba** (kompetisi no-AI). Semua r
 
 | File | Isi |
 |------|-----|
-| [methodology.md](methodology.md) | Strategi lomba, manajemen waktu, cara baca soal, scoring ⭐ |
+| [decision-trees.md](decision-trees.md) | **Flowchart "kalau X → lakuin Y" per kategori + apa yang di-search** ⭐ buka ini pertama pas ngerjain soal |
+| [methodology.md](methodology.md) | Strategi lomba, manajemen waktu, cara baca soal, scoring, aturan AI final ⭐ |
 | [tools-setup.md](tools-setup.md) | Install & setup semua toolkit + troubleshooting |
 | [pwn.md](pwn.md) | Binary exploitation — fmtstr, ROP, ret2libc, heap, shellcode, seccomp ⭐ |
 | [rev.md](rev.md) | Reverse engineering — Ghidra, gdb, angr, deobf, patching, anti-debug |
@@ -20,9 +21,9 @@ Cheatsheet pribadi buat dipakai **offline pas lomba** (kompetisi no-AI). Semua r
 | [templates/](templates/) | Exploit siap pakai (pwntools, fmtstr, ret2libc, shellcode, canary, web, crypto) |
 
 ## Cara pakai pas lomba
-1. **Baca soal → tentuin kategori → buka file kategori.**
-2. Tiap file disusun: **triage cepat → teknik per jenis bug → command → gotcha → "checklist kalau stuck".**
-3. Mentok? Baca [methodology.md](methodology.md) bagian *"Kalau stuck 20 menit"*.
+1. **Baca soal → tentuin kategori → buka [decision-trees.md](decision-trees.md)** → ikutin cabang "kalau X → lakuin Y".
+2. Butuh detail teknik/command → buka file kategori (`pwn.md`, `web.md`, dst): **triage → teknik → command → gotcha → "checklist kalau stuck".**
+3. Mentok? Tiap node tree ada **🔍 search** (boleh Google AI Overview). Baca juga [methodology.md](methodology.md) *"Kalau stuck 20 menit"*.
 
 ## Kenali kategori dari gejala
 | Gejala soal | Kemungkinan kategori |
